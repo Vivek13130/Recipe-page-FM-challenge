@@ -2,7 +2,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgb(0, 149, 10); */
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
 }
 
 body{
@@ -14,10 +17,24 @@ body{
     padding-top: 10%;
 }
 
+.heading{
+    font-family: 'Young Serif', sans-serif;
+    color: hsl(14, 42%, 44%);
+    margin: 18px 0px ;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.bb{
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    margin: 30px 0px;
+}
+
 main{
     max-width: 600px;
     min-width: 370px;
-    padding: 25px;
+    margin: 15px;
+    padding: 20px;
     border-radius: 12px;
     background-color: white;
     border: 1px solid hsl(31, 60%, 75%);
@@ -26,22 +43,32 @@ main{
 #img img{
     width: 100%;
     border-radius: 10px;
+    border: 1px solid hsl(31, 100%, 90%);
 }
 
 h1{
     font-size: 35px;
+    font-family: 'Young Serif', sans-serif;
     margin: 16px 0px ;
+}
+
+p{
+    margin-bottom: 20px;
 }
 
 
 #preparation{
     border: 1px solid hsl(329, 100%, 92%);
     background-color: hsl(330, 100%, 98%) ;
-    margin: 18px 0px;
+    margin: 28px 0px;
     padding: 22px 0px 0px 22px;
-    /* line-height: 48px; */
     border-radius: 10px;
 }
+
+#preparation li::marker{
+    color:hsl(332, 65%, 47%) ;
+}
+
 
 #preparation  *{
     padding-bottom: 10px;
@@ -49,5 +76,58 @@ h1{
 
 #preparation h3{
     font-size: 20px;
-    color: hsl(332, 51%, 32%) ;
+    font-weight: 700;
+    color: hsl(332, 65%, 47%) ;
 }
+
+span{
+    font-weight: 800;
+}
+
+ul, ol{
+    margin-left: 25px;
+}
+li{
+    padding-left: 10px;
+}
+
+li::marker{
+    color: hsl(14, 42%, 44%);
+    padding-left: 10px;
+    font-weight: 800;
+}
+
+#instructions li{
+    padding-bottom: 10px;
+}
+
+#ingreadients li{
+    line-height: 28px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    line-height: 38px;
+    
+}
+
+tr:not(:last-child){
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+td{
+    width: 50%;
+    padding-left: 3%;
+}
+
+.value{
+    font-weight: 700;
+    color: hsl(14, 42%, 44%);
+}
+
+
+
