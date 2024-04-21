@@ -1,133 +1,126 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid rgb(0, 149, 10); */
-
-    font-family: 'Outfit', sans-serif;
-    font-size: 14px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: hsl(30, 54%, 90%);
-    padding-top: 8%;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 54%, 90%);
+  padding-top: 8%;
 }
 
-.heading{
-    font-family: 'Young Serif', sans-serif;
-    color: hsl(14, 42%, 44%);
-    margin: 18px 0px ;
-    font-size: 30px;
-    font-weight: 400;
+.heading {
+  font-family: "Young Serif", sans-serif;
+  color: hsl(14, 42%, 44%);
+  margin: 18px 0px;
+  font-size: 30px;
+  font-weight: 400;
 }
 
-.bb{
-    border-bottom: 2px solid hsl(30, 18%, 87%);
-    margin: 30px 0px;
+.bb {
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+  margin: 30px 0px;
 }
 
-main{
-    max-width: 600px;
-    min-width: 370px;
-    margin: 15px;
-    padding: 20px;
-    border-radius: 12px;
-    background-color: white;
-    border: 1px solid hsl(31, 60%, 75%);
+main {
+  max-width: 600px;
+  min-width: 370px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid hsl(31, 60%, 75%);
 }
 
-#img img{
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid hsl(31, 100%, 90%);
+#img img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid hsl(31, 100%, 90%);
 }
 
-h1{
-    font-size: 35px;
-    font-family: 'Young Serif', sans-serif;
-    margin: 16px 0px ;
+h1 {
+  font-size: 35px;
+  font-family: "Young Serif", sans-serif;
+  margin: 16px 0px;
 }
 
-p{
-    margin-bottom: 20px;
+p {
+  margin-bottom: 20px;
 }
 
-
-#preparation{
-    border: 1px solid hsl(329, 100%, 92%);
-    background-color: hsl(330, 100%, 98%) ;
-    margin: 28px 0px;
-    padding: 22px 0px 0px 22px;
-    border-radius: 10px;
+#preparation {
+  border: 1px solid hsl(329, 100%, 92%);
+  background-color: hsl(330, 100%, 98%);
+  margin: 28px 0px;
+  padding: 22px 0px 0px 22px;
+  border-radius: 10px;
 }
 
-#preparation li::marker{
-    color:hsl(332, 65%, 47%) ;
+#preparation li::marker {
+  color: hsl(332, 65%, 47%);
 }
 
-
-#preparation  *{
-    padding-bottom: 10px;
+#preparation * {
+  padding-bottom: 10px;
 }
 
-#preparation h3{
-    font-size: 20px;
-    font-weight: 700;
-    color: hsl(332, 65%, 47%) ;
+#preparation h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(332, 65%, 47%);
 }
 
-span{
-    font-weight: 800;
+span {
+  font-weight: 800;
 }
 
-ul, ol{
-    margin-left: 25px;
-}
-li{
-    padding-left: 10px;
+ul,ol {
+  margin-left: 25px;
 }
 
-li::marker{
-    color: hsl(14, 42%, 44%);
-    padding-left: 10px;
-    font-weight: 800;
+li {
+  padding-left: 10px;
 }
 
-#instructions li{
-    padding-bottom: 10px;
+li::marker {
+  color: hsl(14, 42%, 44%);
+  padding-left: 10px;
+  font-weight: 800;
 }
 
-#ingreadients li{
-    line-height: 28px;
+#instructions li {
+  padding-bottom: 10px;
 }
 
-table{
-    width: 100%;
-    border-collapse: collapse;
+#ingreadients li {
+  line-height: 28px;
 }
 
-tr{
-    line-height: 38px;
-    
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-tr:not(:last-child){
-    border-bottom: 2px solid hsl(30, 18%, 87%);
+tr {
+  line-height: 38px;
 }
 
-td{
-    width: 50%;
-    padding-left: 3%;
+tr:not(:last-child) {
+  border-bottom: 2px solid hsl(30, 18%, 87%);
 }
 
-.value{
-    font-weight: 700;
-    color: hsl(14, 42%, 44%);
+td {
+  width: 50%;
+  padding-left: 3%;
 }
 
-
-
+.value {
+  font-weight: 700;
+  color: hsl(14, 42%, 44%);
+}
